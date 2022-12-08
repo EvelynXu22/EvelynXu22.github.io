@@ -1116,6 +1116,11 @@ section {
 } */
 .portfolio label{
   padding: 10px 30px;
+  color: #37517e;
+  font-size: 17px;
+  font-weight: 600;
+  font-family: "Jost", sans-serif;
+  
 }
 
 .portfolio input[type=range] {
@@ -1162,26 +1167,26 @@ section {
   
 }
 
-/* .portfolio .accordion-list {
+.portfolio .accordion-list1 {
   padding: 0 100px 60px 100px;
-} */
+}
 
-.portfolio .accordion-list ul {
+.portfolio .accordion-list1 ul {
   padding: 0;
   list-style: none;
 }
 
-.portfolio .accordion-list li+li {
+.portfolio .accordion-list1 li+li {
   margin-top: 15px;
 }
 
-.portfolio .accordion-list li {
+.portfolio .accordion-list1 li {
   padding: 10px;
   background: #fff;
   border-radius: 4px;
 }
 
-.portfolio .accordion-list a {
+.portfolio .accordion-list1 a {
   display: block;
   position: relative;
   font-family: "Poppins", sans-serif;
@@ -1193,42 +1198,112 @@ section {
   cursor: pointer;
 }
 
-.portfolio .accordion-list span {
+.portfolio .accordion-list1 span {
   color: #47b2e4;
   font-weight: 600;
   font-size: 18px;
   padding-right: 10px;
 }
 
-.portfolio .accordion-list i {
+.portfolio .accordion-list1 i {
   font-size: 24px;
   position: absolute;
   right: 0;
   top: 0;
 }
 
-.portfolio .accordion-list p {
+.portfolio .accordion-list1 p {
   margin-bottom: 0;
   padding: 10px 0 0 0;
 }
 
-.portfolio .accordion-list .icon-show {
+.portfolio .accordion-list1 .icon-show {
   display: none;
 }
 
-.portfolio .accordion-list a.collapsed {
+.portfolio .accordion-list1 a.collapsed {
   color: #343a40;
 }
 
-.portfolio .accordion-list a.collapsed:hover {
+.portfolio .accordion-list1 a.collapsed:hover {
   color: #47b2e4;
 }
 
-.portfolio .accordion-list a.collapsed .icon-show {
+.portfolio .accordion-list1 a.collapsed .icon-show {
   display: inline-block;
 }
 
-.portfolio .accordion-list a.collapsed .icon-close {
+.portfolio .accordion-list1 a.collapsed .icon-close {
+  display: none;
+}
+
+.portfolio .accordion-list2 {
+  padding: 0 100px 60px 100px;
+}
+
+.portfolio .accordion-list2 ul {
+  padding: 0;
+  list-style: none;
+}
+
+.portfolio .accordion-list2 li+li {
+  margin-top: 15px;
+}
+
+.portfolio .accordion-list2 li {
+  padding: 10px;
+  background: #fff;
+  border-radius: 4px;
+}
+
+.portfolio .accordion-list2 a {
+  display: block;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  padding-right: 30px;
+  outline: none;
+  cursor: pointer;
+}
+
+.portfolio .accordion-list2 span {
+  color: #47b2e4;
+  font-weight: 600;
+  font-size: 18px;
+  padding-right: 10px;
+}
+
+.portfolio .accordion-list2 i {
+  font-size: 24px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.portfolio .accordion-list2 p {
+  margin-bottom: 0;
+  padding: 10px 0 0 0;
+}
+
+.portfolio .accordion-list2 .icon-show {
+  display: none;
+}
+
+.portfolio .accordion-list2 a.collapsed {
+  color: #343a40;
+}
+
+.portfolio .accordion-list2 a.collapsed:hover {
+  color: #47b2e4;
+}
+
+.portfolio .accordion-list2 a.collapsed .icon-show {
+  display: inline-block;
+}
+
+.portfolio .accordion-list2 a.collapsed .icon-close {
   display: none;
 }
 

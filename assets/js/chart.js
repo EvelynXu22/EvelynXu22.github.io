@@ -28,7 +28,7 @@ const chart = new Highcharts.Chart({
         align: 'left'
     },
     subtitle: {
-        text: 'JavaScript',
+        text: 'Runtime',
         align: 'left'
     },
     legend: {
@@ -78,7 +78,7 @@ const chart2 = new Highcharts.Chart({
         align: 'left'
     },
     subtitle: {
-        text: 's',
+        text: 'Runtime',
         align: 'left'
     },
     legend: {
